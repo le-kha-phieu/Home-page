@@ -1,0 +1,15 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.product-main-image-number-value-none {
+    color: gray;
+    padding-right: 5px;
+    font-size: 13px;
+    text-decoration: line-through;
+}
