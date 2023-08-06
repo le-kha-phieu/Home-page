@@ -16,6 +16,11 @@ header {
   width: 100%;
 }
 
+.header-under {
+    display: flex;
+    align-items: center;
+}
+
 .header-child {
   padding: 0 100px;
   display: flex;
@@ -73,6 +78,9 @@ header {
   position: absolute;
   background-color: antiquewhite;
   margin-top: 26px;
+  width: 150px;
+  border-top: 2px solid red;
+  display: none;
 }
 
 .header-under-item-has:hover .header-box-item {
@@ -205,6 +213,7 @@ h6 {
   width: 270px;
   height: 315px;
   background-color: white;
+  overflow: hidden;
 }
 
 .image-car {
@@ -214,7 +223,7 @@ h6 {
 
 .image-car:hover {
   transition: all 1.5s ease;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1);
 }
 
 .product-main-image-list-item {
@@ -379,23 +388,21 @@ iframe {
 }
 
 /* footer */
-
-.footer-main {
-  width: 100%;
-  height: 700px;
-  background-color: black;
+footer {
+    background-color: black;
 }
 
 .footer-top-apps {
   display: flex;
   margin: 0px 150px;
-  /* padding: 0 50px; */
 }
 
 .footer-top-apps-list {
   width: 25%;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 45px;
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -416,7 +423,7 @@ iframe {
 }
 
 .footer-apps-text {
-  color: gray;
+  color: white;
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
@@ -424,7 +431,6 @@ iframe {
 
 .footer-apps-icon {
   color: white;
-  float: right;
   font-size: 30px;
   font-weight: 400;
 }
